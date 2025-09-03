@@ -1,6 +1,6 @@
 # Open_Sesame
 
-**Author:** Raed Fayad / raed_f (discord)
+**Author:** Raed Fayad
 
 **Category:** PWN
 
@@ -13,7 +13,7 @@ Open Sesame is a beginner-level PWN challenge that teaches classic stack-based b
 - [door_access](release_files/door_access) - The binary to exploit
 
 ### Host
-
+Go through the [service depoloyment](#service-deployment) steps to launch the service, then connect to the service via:
 ```sh
 $ nc <server_ip> 1337
 ```
@@ -29,10 +29,6 @@ Your mission is to enter a locked ballot-counting room. Without a key card of yo
 The flag is the UUID of the key card that was most recently granted access to the ballot-counting room.
 
 Free hint - the door access system is a simple program that was compiled for Linux i386 architecture.
-
-### Depends on
-
-None
 
 ### Flag
 
